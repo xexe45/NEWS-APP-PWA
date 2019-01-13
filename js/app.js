@@ -1,5 +1,17 @@
 $(document).ready(function() {
 
+    var url = window.location.href;
+
+    var swLocation = '/news_app/sw.js';
+
+    if (navigator.serviceWorker) {
+
+        if (url.includes('localhost')) {
+            swLocation = '/sw.js';
+        }
+        navigator.serviceWorker.register(swLocation);
+    }
+
     // REFERENCIAS
     const sidenav = $('.sidenav');
     const search = $('#search');

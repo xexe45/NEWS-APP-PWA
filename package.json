@@ -1,0 +1,23 @@
+{
+    "name": "news_app",
+    "version": "1.0.0",
+    "description": "APP ABOUT WORLD NEWS",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Cesar Lachira",
+    "license": "ISC",
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-autoprefixer": "^5.0.0",
+        "gulp-sass": "^4.0.1"
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions"
+    ],
+    "dependencies": {
+        "materialize-css": "^1.0.0-rc.2"
+    }
+}

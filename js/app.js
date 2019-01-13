@@ -2,7 +2,7 @@ $(document).ready(function() {
 
     var url = window.location.href;
 
-    var swLocation = '/news_app/sw.js';
+    var swLocation = '/NEWS-APP-PWA/sw.js';
 
     if (navigator.serviceWorker) {
 
